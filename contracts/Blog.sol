@@ -36,7 +36,7 @@ contract Blog {
     }
 
     /* updates the blog name */
-    function updteName(string memory _name) public {
+    function updateName(string memory _name) public {
         name = _name;
     }
 
